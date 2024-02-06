@@ -7,15 +7,11 @@ public class deseneGöreMetot {
         {
             return;
         }
-
-
-
         if (sayi > 0)
         {
             islemYap(sayi - 5);
             System.out.print(sayi + " ");
         }
-
 
     }
     public static void main(String[] args) {
@@ -26,6 +22,5 @@ public class deseneGöreMetot {
 
         islemYap(n);
     }
-
 
 }
